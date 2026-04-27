@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-purple: #7C3AED;
+  --deep-black: #111111;
+  --accent-glow: #A78BFA;
+}
+
+body {
+  font-family: 'Inter', system_ui, sans-serif;
+}
+
+.purple-gradient {
+  background: linear-gradient(135deg, #7C3AED 0%, #4C1D95 100%);
+}
+
+.glow-purple {
+  box-shadow: 0 0 25px rgba(124, 58, 237, 0.5);
+}
