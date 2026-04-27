@@ -1,0 +1,30 @@
+solulex-web/
+├── app/
+│   ├── (auth)/
+│   ├── dashboard/
+│   ├── categories/
+│   │   ├── real-estate/
+│   │   ├── products/
+│   │   ├── beauty/
+│   │   ├── wellness/
+│   │   └── travel/
+│   ├── ai-guide/
+│   ├── partnerships/
+│   └── layout.tsx
+├── components/
+│   ├── ui/                  # shadcn components
+│   ├── layout/
+│   │   ├── Navbar.tsx
+│   │   ├── Footer.tsx
+│   │   └── AIChatWidget.tsx   # The heart of Solulex
+│   ├── category/
+│   ├── common/
+│   └── magic/
+├── lib/
+│   ├── supabase.ts
+│   └── utils.ts
+├── public/
+│   └── logo.svg              # Your Solulex logo
+├── hooks/
+├── types/
+└── package.json
